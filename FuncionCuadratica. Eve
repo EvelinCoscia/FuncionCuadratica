@@ -1,0 +1,23 @@
+Algoritmo FuncionCuadratica
+	Definir a, b, c, x1, x2 Como Real
+	a = 0
+	b = 0
+	c = 0
+	x1 = 0
+	x2 = 0
+	Escribir "Ingresar el coeficiente a de la cuadrática"
+	Leer a
+	Escribir " Ingresar el coeficiente b de la cuadrática"
+	Leer b
+	Escribir "Ingresar el coeficiente c de la cuadrática "
+	Leer c
+	
+	Si (b^2 - 4 * a * c) < 0 Entonces
+		Escribir " La cuadrática de los coeficientes que ingresaste no tiene raíces reales "
+	SINo
+		x1 = ((- b + raiz(b^2 - 4 * a * c))/ (2 * a ))
+		x2 = ((- b - raiz(b^2 - 4 * a * c))/ (2 * a ))
+		Escribir " Las raíces de la función cuadrática son:  ", x1 " y " x2
+	FinSi
+	
+	FinAlgoritmo
